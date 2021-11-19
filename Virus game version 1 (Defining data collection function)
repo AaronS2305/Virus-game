@@ -1,0 +1,5 @@
+#Defining the data collection function
+def data_collection():
+    country = str(input("What is the name of your chosen country?"))
+    cases = int(input("What is the percentage of virus cases in your chosen country?"))
+    return country, cases
