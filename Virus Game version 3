@@ -1,0 +1,51 @@
+#country input
+country1 = str(input("What is the name of your first chosen country?"))
+country2 = str(input("What is the name of your second chosen country?"))
+country3 = str(input("What is the name of your third chosen country?"))
+country4 = str(input("What is the name of your fourth chosen country?"))
+country5 = str(input("What is the name of your fith chosen country?"))
+
+#case input
+cases1 = int(input("What is the percentage of virus cases in your first chosen country?"))
+cases2 = int(input("What is the percentage of virus cases in your second chosen country?"))
+cases3 = int(input("What is the percentage of virus cases in your third chosen country?"))
+cases4 = int(input("What is the percentage of virus cases in your fourth chosen country?"))
+cases5 = int(input("What is the percentage of virus cases in your fith chosen country?"))
+
+
+
+def data_conditions():
+    print(country1)
+    print(cases1)
+    print(country2)
+    print(cases2)
+    print(country3)
+    print(cases3)
+    print(country4)
+    print(cases4)
+    print(country5)
+    print(cases5)
+    if cases1 > 50:
+        print("LOCKDOWN")
+    else:
+        print("Open")
+    if cases2 > 50:
+        print("LOCKDOWN")
+    else:
+        print("Open")
+    if cases3 > 50:
+        print("LOCKDOWN")
+    else:
+        print("Open")
+    if cases4 > 50:
+        print("LOCKDOWN")
+    else:
+        print("Open")
+    if cases5 > 50:
+        print("LOCKDOWN")
+    else:
+        print("Open")
+
+
+
+data_conditions()
