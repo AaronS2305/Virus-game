@@ -1,0 +1,16 @@
+country = str(input("What is the name of your chosen country?"))
+cases = int(input("What is the percentage of virus cases in your chosen country?"))
+
+
+
+def Data():
+    print(cases)
+    print(country)
+    if cases > 50:
+        print("LOCKDOWN")
+    else:
+        print("Open")
+
+
+
+Data()
