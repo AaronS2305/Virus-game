@@ -1,7 +1,0 @@
-run_loop = True
-
-while run_loop:
-    country = input("What is the name of your chosen country?")
-    cases = input("What is the percentage of virus cases in your country?")
-    if country == ("done"):
-        run_loop = False
